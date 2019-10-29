@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: "work Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.clearFix::after{
+    content: ' ';
+    clear: both;
+}
+#wrapper{
+    width: 1440px;
+    margin: 0px auto;
+}
+#header{
+    background-image: url("images/hd-bg.jpg");
+    height: 1000px;
+    width: 1440px;
+    background-size: cover;
+    padding-top:45px;
+}
+#menu{
+    width: 1166px;
+    height: 45px;
+    margin: 0px auto;
+}
+#menu h1{
+    width: 98px;
+    height: 40;
+    float: left;
+    background: url("images/logo.png") no-repeat top left;
+    text-indent: -9999999px;
+}
+#menu ul{
+    width: auto;
+    float: right;
+}
+#menu li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+#menu li:hover{
+    background: #09baf2;
+}
+/* #menu li:hover>a{
+    color:#13e4ee;
+} */
+#menu a{
+    display: block;
+    color: white;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+}
+#title{
+    margin: 0px auto;
+    margin-top: 130px;
+    width: 570px;    
+    text-align: center;
+}
+#title h2{
+    color: #ffffff;
+    font-size: 45px;
+}
+#title p{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+#title p+a{
+    display:inline-block;
+    width: 168px;
+    height: 40px;
+    background: #ffffff;
+    color:#615878;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+#title p+a+a{
+    display:inline-block;
+    width: 168px;
+    height: 40px;
+    color:#ffffff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    border: solid 1px white;
+    margin-left: 25px;
+}
+#smartphone{
+    background: url("images/Smartphone.png") no-repeat center center;
+    width: 260px;
+    height: 559px;
+    margin: 0px auto;
+    margin-top: 70px;
+}
+#marketing1{
+    width: 1442px;
+    height: 1249px;
+    background: url("images/Background2.png") no-repeat;
+    position: relative;
+    top: -150px;
+    padding: 0px 138px;
+    padding-top: 150px;
+}
+#smart{
+    width: 465px;
+    height: 1100px;
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 290px;
+}
+#item{
+    width: 700px;
+    height: 100%;
+    float: left;
+}
+#item>div{
+    width: 350px;
+    height: 100%;
+    float: left;
+}
+#item>div>div{
+    width: 232px;
+    height: 272px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #d1d1eb;
+    text-align: center;
+    padding-top:60px;
+}
+#item>div:nth-child(1)>div:nth-child(1){
+    margin-top:118px;
+    margin-bottom: 73px;
+    margin-left: 68px;
+}
+#item>div:nth-child(2)>div:nth-child(1){
+    margin-top:213px;
+    margin-bottom: 100px;
+    margin-left: 48px;
+}
+#item>div>div img{
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: 0px auto 10px auto;
+}
+#item h4{
+    color: #233148;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+}
+#item p{
+    color: #6a6d89;
+    font-size: 14px;
+}
