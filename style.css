@@ -85,7 +85,8 @@ li{
     text-align: center;
     line-height: 40px;
     border-radius: 5px;
-    border: solid 1px white;
+    border: solid 1px white;    
+    margin-left: 25px;
 }
 #smartphone{
     background: url("images/Smartphone.png") no-repeat center center;
